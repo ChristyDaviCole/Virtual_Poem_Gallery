@@ -19,3 +19,20 @@ const westPoems = westWall.getElementsByClassName("poem-card");
 console.log(westPoems);
 
 //Journal Prompt 2
+
+//Phase 3: The Curator’s Move (DOM Manipulation)
+//Now, write script logic that relocates an existing poem from one wall to the other.
+
+const eastWall = document.getElementById("wall-east");
+
+//Requirement: Select an existing poem on the West Wall and move it to the East Wall using 
+// appendChild() or insertBefore().
+
+eastWall.appendChild(earthPoem);
+
+//Requirement: Update the moved poem’s background color in JavaScript to show that it has 
+// been relocated.
+
+earthPoem.style.backgroundColor = "lightblue";
+
+//Journal Prompt 3

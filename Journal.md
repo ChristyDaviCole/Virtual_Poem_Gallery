@@ -5,3 +5,8 @@ I used <div> elements for the walls and each poem. Each poem has a unique ID, wh
 Journal Prompt 2
 What was the difference between what getElementById returned and what your group selection method returned?
 getElementById returned one specific poem element using its unique id and the group selection method returned the collection of all poem elements with the poem-card class on the west wall.
+
+Journal Prompt 3
+When you moved the item, did you have to manually “delete” it from the first wall? Explain what happened to the node in the DOM tree when you called the movement method.
+Manual deletion was not necessary, I just used appendChild() to move the Earth poem to the other wall and it was automatically removed from its original location and became a child of the new wall in the DOM tree.
+
