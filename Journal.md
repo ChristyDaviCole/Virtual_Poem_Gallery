@@ -10,3 +10,6 @@ Journal Prompt 3
 When you moved the item, did you have to manually “delete” it from the first wall? Explain what happened to the node in the DOM tree when you called the movement method.
 Manual deletion was not necessary, I just used appendChild() to move the Earth poem to the other wall and it was automatically removed from its original location and became a child of the new wall in the DOM tree.
 
+Journal Prompt 4 
+Describe the lifecycle of an element created with document.createElement(). Where does that element exist in memory before you call appendChild(), and at what point does it become visible on the page?
+Before calling appendChild(), an element created with document.createElement() exists in memory but is not part of the page yet. Once appendChild() is used to add it to a wall, it becomes part of the DOM and is then part of the page.
